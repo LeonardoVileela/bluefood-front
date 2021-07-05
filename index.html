@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,8 @@
 
 <body>
     <header>
-        <div>
+        <div class="divLogoTipoSistema">
+            <span></span>
             <a href="">
                 <img src="images/bf_logotipoSistema.png" alt="">
             </a>
@@ -20,8 +22,7 @@
     <!-- Cabeçalho - fim -->
 
     <div>
-
-        <img src="images/bf_iconeUsuario.png" alt="">
+        <img id="imgIconeUsuario" src="images/bf_iconeUsuario.png" alt="">
 
         <h1>Autenticação</h1>
         <form method="POST" action="">
@@ -33,11 +34,12 @@
         </form>
         <br>
 
-        <div>
-            Aqui vai um exemplo de mensagem de erro
+        <div id="mensagemDeErro">
+            <span id="spanError"></span>
+            <span id="textError"> Aqui vai um exemplo de mensagem de erro</span>
         </div><br>
 
-        <input type="button" value="Gostaria de criar a minha conta de ususario">
+        <input type="button" value="Gostaria de criar a minha conta de usuario">
         <br>
         <input type="button" value="Gostaria de criar minha conta de restaurante">
 
