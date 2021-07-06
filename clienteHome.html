@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +11,16 @@
 
 <body>
     <header>
-        <div>
+        <div class="divLogoTipoSistema">
+            <span></span>
             <a href="">
                 <img src="images/bf_logotipoSistema.png" alt="">
             </a>
         </div>
-        <div>
+        <div id="divUsuarioLogado">
             Olá nome do Usuário
             <br>
-            <img src="images/bf_iconeCarrinho.png" alt="">
+            <img id="imgIconeCarrinho" src="images/bf_iconeCarrinho.png" alt="">
         </div>
     </header>
     <br><br>
@@ -27,17 +29,17 @@
     <div>
         <h1>É hora de rangar!</h1>
         <form action="" method="POST">
-            <fieldset>
-                <input type="text" name="busca" placeholder="Buscar...">
-                <input type="button" value="Buscar">
-            </fieldset>
+
+            <input id="buscaHome" type="text" name="busca" placeholder="Buscar...">
+            <input type="button" value="Buscar">
+
         </form>
     </div>
 
-    <div>
-        <div>
+    <div id="divCategoriasComidaGeral">
+        <div class="divCategoriasComidaOpcao">
             <a href="#">
-                <img src="images/sys_categoriaChurrasco.png" alt="">
+                <img class="imgCategoriaComida" src="images/sys_categoriaChurrasco.png" alt="">
                 <br>
 
                 <span>
@@ -47,9 +49,9 @@
         </div>
 
 
-        <div>
+        <div class="divCategoriasComidaOpcao">
             <a href="#">
-                <img src="images/sys_categoriaHamburguer.png" alt="">
+                <img class="imgCategoriaComida" src="images/sys_categoriaHamburguer.png" alt="">
                 <br>
 
                 <span>
@@ -59,9 +61,9 @@
         </div>
 
 
-        <div>
+        <div class="divCategoriasComidaOpcao">
             <a href="#">
-                <img src="images/sys_categoriaPizza.png" alt="">
+                <img class="imgCategoriaComida" src="images/sys_categoriaPizza.png" alt="">
                 <br>
 
                 <span>
@@ -70,9 +72,9 @@
             </a>
         </div>
 
-        <div>
+        <div class="divCategoriasComidaOpcao">
             <a href="#">
-                <img src="images/sys_categoriaSalada.png" alt="">
+                <img class="imgCategoriaComida" src="images/sys_categoriaSalada.png" alt="">
                 <br>
 
                 <span>
@@ -82,9 +84,9 @@
         </div>
 
 
-        <div>
+        <div class="divCategoriasComidaOpcao">
             <a href="#">
-                <img src="images/sys_categoriaSobremesa.png" alt="">
+                <img class="imgCategoriaComida" src="images/sys_categoriaSobremesa.png" alt="">
                 <br>
 
                 <span>
